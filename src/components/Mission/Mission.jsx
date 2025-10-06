@@ -11,7 +11,7 @@ const Mission = () => {
             </BGComponent>
             <NoBGComponent>
                 <p className='text-[13px]'>Our Mission</p>
-                <h1 className='text-[36px]/9'>
+                <h1 className='text-[36px]/10'>
                     Innovative solutions for a digital future
                 </h1>
                 <p className='text-[15px]/6 font-light'>Elementra empowers users with innovative tools to enhance their financial journey and achieve their goals.</p>

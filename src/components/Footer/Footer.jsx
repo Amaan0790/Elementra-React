@@ -31,7 +31,7 @@ const Footer = () => {
                         <a href='#' className='text-[15px]'>Blog</a>
                         <a href='#' className='text-[15px]'>Contact</a>
                     </div>
-                    <div className='w-[50%] flex flex-col gap-1.5 justify-self-end'>
+                    <div className='w-[50%] flex flex-col gap-1.5'>
                         <h3 className='text-[17px] font-bold'>Follow Us</h3>
                         <p className='text-[15px]'>Facebook</p>
                         <p className='text-[15px]'>Twitter</p>

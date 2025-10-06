@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <header
-            className='lg:w-[90%] m-auto flex justify-between pt-3 text-[1rem] '
+            className='w-[90%] m-auto flex justify-between pt-3 text-[1rem] '
         >
             <motion.img
                 src={whiteLogo}

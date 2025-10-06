@@ -14,7 +14,7 @@ const About = () => {
             </BGComponent>
             <NoBGComponent title="title">
                 <p className='text-[13px]'>About Elementra</p>
-                <h1 className='text-[36px]/9 flex flex-col gap-0'>
+                <h1 className='text-[36px]/10 flex flex-col gap-0'>
                     <span>Transforming digital</span>
                     <span className='text-[#FB5E00]'>
                         Finance Solutions

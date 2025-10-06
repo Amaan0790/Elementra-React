@@ -16,7 +16,7 @@ const Values = () => {
             </BGComponent>
             <NoBGComponent>
                 <p className='text-[13px]'>Our Values</p>
-                <h1 className='text-[36px]/9'>
+                <h1 className='text-[36px]/10'>
                     <span className='text-[#FB5E00]'>Transforming digital</span> <br />
                     <span>
                         finance for all

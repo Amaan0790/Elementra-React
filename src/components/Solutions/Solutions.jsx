@@ -26,8 +26,8 @@ const Solutions = () => {
                             2
                         </p> {" "}
                         <div className='ml-5 w-[80%]'>
-                            <p className='text-[19px] font-light'>Innovative finance</p>
-                            <p className='w-[80%] text-[15px] font-normal'>Elementra transforms finance through cutting-edge solutions and technology.</p>
+                            <p className='text-[19px] font-semibold'>Innovative finance</p>
+                            <p className='w-[80%] text-[15px] font-light'>Elementra transforms finance through cutting-edge solutions and technology.</p>
                         </div>
                     </div>
                     <div className='flex '>
@@ -35,8 +35,8 @@ const Solutions = () => {
                             3
                         </p> {" "}
                         <div className='ml-5 w-[80%]'>
-                            <p className='text-[19px] font-light'>Financial solutions</p>
-                            <p className='w-[80%] text-[15px] font-normal'>We empower clients with customized solutions that yield significant outcomes.</p>
+                            <p className='text-[19px] font-semibold'>Financial solutions</p>
+                            <p className='w-[80%] text-[15px] font-light'>We empower clients with customized solutions that yield significant outcomes.</p>
                         </div>
                     </div>
                 </div>
