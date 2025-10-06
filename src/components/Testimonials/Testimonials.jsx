@@ -70,7 +70,7 @@ const Testimonials = () => {
                     <span className='text-[#FB5E00] '>feedback and insights</span>
                 </h1>
 
-                <div className='w-[90%] m-auto'>
+                <div className='w-[90%] m-auto flex justify-center'>
                     <Masonry
                         columns={{ xs: 1, sm: 2, md: 3, lg: 4 }} // responsive columns
                         spacing={3}

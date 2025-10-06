@@ -3,12 +3,12 @@ import Img from '../../images/custom-img-14-copyright.jpg'
 
 const Solutions = () => {
     return (
-        <div className='w-[90%] m-auto grid grid-cols-1 gap-2 my-10'>
-            <div className='text-[#212724] flex flex-col justify-center gap-4'>
+        <div className='w-[90%] m-auto grid grid-cols-1 gap-5 my-10'>
+            <div className='text-[#212724] flex flex-col justify-center gap-3'>
                 <p className='uppercase text-[13px] font-semibold'>
                     Empowering financial freedom
                 </p>
-                <h1 className='text-[35px] font-semibold'>
+                <h1 className='text-[35px]/9 font-semibold'>
                     Discover our Innovative Solutions
                 </h1>
                 <div className='flex flex-col gap-3'>

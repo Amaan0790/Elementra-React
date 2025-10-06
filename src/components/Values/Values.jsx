@@ -16,13 +16,13 @@ const Values = () => {
             </BGComponent>
             <NoBGComponent>
                 <p className='text-[13px]'>Our Values</p>
-                <h1 className='text-[36px]'>
+                <h1 className='text-[36px]/9'>
                     <span className='text-[#FB5E00]'>Transforming digital</span> <br />
                     <span>
                         finance for all
                     </span>
                 </h1>
-                <p className='text-[15px] w-[90%]'>Elementra is dedicated to enhancing financial accessibility and security through innovative solutions that empower users in their financial journeys.</p>
+                <p className='text-[15px]/6 font-light w-[90%]'>Elementra is dedicated to enhancing financial accessibility and security through innovative solutions that empower users in their financial journeys.</p>
             </NoBGComponent>
         </div>
     )

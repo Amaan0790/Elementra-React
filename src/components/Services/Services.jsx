@@ -27,9 +27,9 @@ const Services = () => {
             <h1 className='text-center text-[36px] m-auto'>
                 Explore our comprehensive financial solutions
             </h1>
-            <div className='w-[80%] m-auto grid grid-cols-1'>
+            <div className='w-[80%] m-auto grid grid-cols-1 gap-4'>
                 {servicesData.map((data, index) =>
-                    <div key={index} className='flex flex-col gap-2  text-center'>
+                    <div key={index} className='flex flex-col gap-1  text-center'>
                         <img src={data.img} alt="Service Image" className='w-[70px] m-auto' />
                         <h3 className='text-[19px] text-[#F7F6E3]'>{data.title}</h3>
                         <p className='text-[15px] font-4 font-normal text-[#CACABD]'>{data.description}</p>

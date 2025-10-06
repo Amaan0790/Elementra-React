@@ -20,7 +20,7 @@ const Summary = () => {
         }
     ]
     return (
-        <div className='h-[247px] w-[90%] m-auto grid grid-cols-2 grid-rows-2 gap-1.5'>
+        <div className='h-[247px] w-[90%] m-auto grid grid-cols-2 grid-rows-2 justify-items-center gap-1.5 my-5'>
 
             {data.map((d, index) =>
                 <div>
