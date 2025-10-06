@@ -22,10 +22,10 @@ const Services = () => {
         }
     ]
     return (
-        <div className='bg-[#202723] text-white rounded-t-[30px] py-[60px] flex flex-col gap-5'>
-            <div className='w-[90%]'>
+        <div className='bg-[#202723] text-white rounded-t-[30px] py-[60px] '>
+            <div className='w-[90%] m-auto flex flex-col items-center gap-5'>
                 <p className='text-center text-[13px] uppercase'>Our Innovative Services</p>
-                <h1 className='text-center text-[36px] m-auto'>
+                <h1 className='text-center text-[36px]/10 m-auto'>
                     Explore our comprehensive financial solutions
                 </h1>
                 <div className='w-[80%] m-auto grid grid-cols-1 gap-4'>

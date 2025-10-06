@@ -65,7 +65,7 @@ const Testimonials = () => {
         <div className='bg-[#F2F1E1]'>
             <div className='bg-[#202723] text-[#F7F6E3] flex flex-col gap-4 rounded-b-[30px] py-2.5'>
                 <p className='uppercase text-sm text-center'>Client Testimonials</p>
-                <h1 className='text-[36px] text-center w-[90%] m-auto'>
+                <h1 className='text-[36px]/10 text-center w-[90%] m-auto'>
                     <span>We value your</span> <br />
                     <span className='text-[#FB5E00] '>feedback and insights</span>
                 </h1>
