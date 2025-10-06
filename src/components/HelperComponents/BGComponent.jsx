@@ -1,0 +1,11 @@
+import React from 'react'
+
+const BGComponent = ({ children }) => {
+    return (
+        <div className='bg-[#F2F1E1] rounded-3xl py-[20px] px-[20px] flex flex-col gap-2 h-fit w-full'>
+            {children}
+        </div>
+    )
+}
+
+export default BGComponent
