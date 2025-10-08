@@ -2,7 +2,7 @@ import React from 'react'
 import Img from '../../images/logo-light-retina.png'
 const Footer = () => {
     return (
-        <footer className=' bg-[#202723] text-[#CACABD] pt-25 rounded-t-[30px] lg:rounded-t-[70px]'>
+        <footer className=' bg-[#202723] text-[#CACABD] py-25 rounded-t-[30px] lg:rounded-t-[70px]'>
             <div className='w-[90%] lg:w-[80%] m-auto grid grid-cols-1 md:grid-cols-3 gap-5'>
                 <div className='flex flex-col gap-1.5 md:gap-[30px] items-start w-fit h-fit'>
                     <img
@@ -40,9 +40,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-[80%] m-auto'>
-                <p className='text-[clamp(2rem,80vw,20rem)] text-[#414543]'>Edumix</p>
-            </div>
+
         </footer>
     )
 }
