@@ -11,8 +11,8 @@ const Clients = () => {
     const images = [client1, client2, client3, client4, client5, client6];
     return (
         <div className='w-[90%] m-auto'>
-            <p className='py-[60px] text-center font-semibold text-[17px]'>Empowering financial leaders and innovative brands</p>
-            <div className='grid grid-cols-2 gap-1 w-[90%] m-auto mt-2'>
+            <p className='py-[60px] text-center font-semibold text-[17px] lg:text-[19px]'>Empowering financial leaders and innovative brands</p>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-1 w-[90%] m-auto mt-2'>
                 <div>
                     <motion.img
                         src={client1}

@@ -63,9 +63,9 @@ const Testimonials = () => {
     ]
     return (
         <div className='bg-[#F2F1E1]'>
-            <div className='bg-[#202723] text-[#F7F6E3] flex flex-col gap-4 rounded-b-[30px] py-5'>
-                <p className='uppercase text-sm text-center'>Client Testimonials</p>
-                <h1 className='text-[36px]/10 text-center w-[90%] m-auto'>
+            <div className='bg-[#202723] text-[#F7F6E3] flex flex-col gap-4 md:gap-5 lg:gap-9 rounded-b-[30px] py-5'>
+                <p className='uppercase font-bold tracking-wider text-sm md:text-[14px] text-center'>Client Testimonials</p>
+                <h1 className='text-[36px]/10 md:text-[45px]/13 lg:text-[57px]/17 text-center w-[90%] m-auto'>
                     <span>We value your</span> <br />
                     <span className='text-[#FB5E00] '>feedback and insights</span>
                 </h1>
@@ -81,13 +81,13 @@ const Testimonials = () => {
                                 className='w-full bg-[#303633] pt-[40px] pb-[35px] px-[30px] rounded-[26px] flex flex-col justify-between gap-5 text-white shadow-lg hover:scale-[1.02] transition-transform duration-300'
                             >
                                 <div className='flex flex-col gap-3'>
-                                    <img src={item.img} alt={item.name} className='rounded-full w-[50px]' />
+                                    <img src={item.img} alt={item.name} className='rounded-full w-[50px] md:w-[54px]' />
                                     <div>
-                                        <p className='text-[17px] font-medium'>{item.name}</p>
+                                        <p className='text-[17px] md:text-[18px] font-medium'>{item.name}</p>
                                         <p className='text-[15px] opacity-80'>{item.address}</p>
                                     </div>
                                 </div>
-                                <p className='text-[16px] leading-relaxed'>{item.testimonial}</p>
+                                <p className='text-[16px] md:text-[17px] leading-relaxed'>{item.testimonial}</p>
                             </div>
                         ))}
                     </Masonry>

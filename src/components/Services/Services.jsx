@@ -22,18 +22,18 @@ const Services = () => {
         }
     ]
     return (
-        <div className='bg-[#202723] text-white rounded-t-[30px] py-[60px] '>
-            <div className='w-[90%] m-auto flex flex-col items-center gap-5'>
-                <p className='text-center text-[13px] uppercase'>Our Innovative Services</p>
-                <h1 className='text-center text-[36px]/10 m-auto'>
+        <div className='bg-[#202723] text-white rounded-t-[30px] py-[60px] lg:pb-[90px]'>
+            <div className='w-[90%] m-auto flex flex-col items-center gap-5 lg:gap-8'>
+                <p className='text-center text-[13px] md:text-[14px] uppercase'>Our Innovative Services</p>
+                <h1 className='text-center text-[36px]/10 md:text-[45px]/12 lg:text-[57px]/15 lg:w-[60%] m-auto'>
                     Explore our comprehensive financial solutions
                 </h1>
-                <div className='w-[80%] m-auto grid grid-cols-1 gap-4'>
+                <div className='w-[80%] md:w-[95%] m-auto grid grid-cols-1 md:grid-cols-3 gap-4'>
                     {servicesData.map((data, index) =>
-                        <div key={index} className='flex flex-col gap-1  text-center'>
-                            <img src={data.img} alt="Service Image" className='w-[70px] m-auto' />
-                            <h3 className='text-[19px] text-[#F7F6E3]'>{data.title}</h3>
-                            <p className='text-[15px] font-4 font-normal text-[#CACABD]'>{data.description}</p>
+                        <div key={index} className='flex flex-col gap-1 lg:gap-4 text-center'>
+                            <img src={data.img} alt="Service Image" className='w-[70px] md:w-[80px] m-auto' />
+                            <h3 className='text-[19px] md:text-[20px] lg:text-[23px] text-[#F7F6E3]'>{data.title}</h3>
+                            <p className='text-[15px] md:text-[16px] font-4 font-normal text-[#CACABD]'>{data.description}</p>
                         </div>
                     )}
 
